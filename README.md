@@ -90,9 +90,12 @@
 ### Создание файлов `.gitignore` и второго коммита
 
 1. Создайте файл `.gitignore` (обратите внимание на точку в начале файла), проверьте его статус сразу после создания. 
-1. Добавьте файл `.gitignore` в следующий коммит (`git add...`).
-1. На одном из следующих блоков вы будете изучать `Terraform`, давайте сразу создадим соотвествующий каталог `terraform` и внутри этого каталога — файл `.gitignore` по примеру: https://github.com/github/gitignore/blob/master/Terraform.gitignore.  
-1. В файле `README.md` опишите своими словами, какие файлы будут проигнорированы в будущем благодаря добавленному `.gitignore`.
+2. Добавьте файл `.gitignore` в следующий коммит (`git add...`).
+![Git_01](https://github.com/Qshar1408/devops-netology/blob/main/img/git_010.png)
+3. На одном из следующих блоков вы будете изучать `Terraform`, давайте сразу создадим соотвествующий каталог `terraform` и внутри этого каталога — файл `.gitignore` по примеру: https://github.com/github/gitignore/blob/master/Terraform.gitignore.
+![Git_01](https://github.com/Qshar1408/devops-netology/blob/main/img/git_011.png)
+![Git_01](https://github.com/Qshar1408/devops-netology/blob/main/img/git_012.png)
+4. В файле `README.md` опишите своими словами, какие файлы будут проигнорированы в будущем благодаря добавленному `.gitignore`.
 
 Игнорировать:
  *  Всё содержимое скрытой директории .terraform/
@@ -106,6 +109,8 @@
  *  Скрытый файл .terraformrc, а так же terraform.rc
 
 5 . Закоммитьте все новые и изменённые файлы. Комментарий к коммиту должен быть `Added gitignore`.
+![Git_01](https://github.com/Qshar1408/devops-netology/blob/main/img/git_013.png)
+![Git_01](https://github.com/Qshar1408/devops-netology/blob/main/img/git_014.png)
 
 ### Эксперимент с удалением и перемещением файлов (третий и четвёртый коммит)
 
