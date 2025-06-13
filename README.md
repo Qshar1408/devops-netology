@@ -48,16 +48,24 @@
     ![Клонирование репозитория](img/github-clone-repo-https.jpg)
     
 5. Перейдите в каталог с клоном репозитория (`cd devops-netology`).
-   ![git_01](img/git_001.jpg)
-7. Произведите первоначальную настройку Git, указав своё настоящее имя, чтобы нам было проще общаться, и email (`git config --global user.name` и `git config --global user.email johndoe@example.com`). 
-8. Выполните команду `git status` и запомните результат.
-9. Отредактируйте файл `README.md` любым удобным способом, тем самым переведя файл в состояние `Modified`.
-10. Ещё раз выполните `git status` и продолжайте проверять вывод этой команды после каждого следующего шага. 
-11. Теперь посмотрите изменения в файле `README.md`, выполнив команды `git diff` и `git diff --staged`.
-12. Переведите файл в состояние `staged` (или, как говорят, просто добавьте файл в коммит) командой `git add README.md`.
-13. И ещё раз выполните команды `git diff` и `git diff --staged`. Поиграйте с изменениями и этими командами, чтобы чётко понять, что и когда они отображают. 
-14. Теперь можно сделать коммит `git commit -m 'First commit'`.
-15. И ещё раз посмотреть выводы команд `git status`, `git diff` и `git diff --staged`.
+   ![Git_01](https://github.com/Qshar1408/devops-netology/blob/main/img/git_001.png)
+6. Произведите первоначальную настройку Git, указав своё настоящее имя, чтобы нам было проще общаться, и email (`git config --global user.name` и `git config --global user.email johndoe@example.com`).
+   ![Git_01](https://github.com/Qshar1408/devops-netology/blob/main/img/git_009.png)
+7. Выполните команду `git status` и запомните результат.
+   ![Git_01](https://github.com/Qshar1408/devops-netology/blob/main/img/git_002.png)
+8. Отредактируйте файл `README.md` любым удобным способом, тем самым переведя файл в состояние `Modified`.
+9. Ещё раз выполните `git status` и продолжайте проверять вывод этой команды после каждого следующего шага.
+   ![Git_01](https://github.com/Qshar1408/devops-netology/blob/main/img/git_003.png)
+10. Теперь посмотрите изменения в файле `README.md`, выполнив команды `git diff` и `git diff --staged`.
+   ![Git_01](https://github.com/Qshar1408/devops-netology/blob/main/img/git_004.png)
+11. Переведите файл в состояние `staged` (или, как говорят, просто добавьте файл в коммит) командой `git add README.md`.
+   ![Git_01](https://github.com/Qshar1408/devops-netology/blob/main/img/git_005.png)
+12. И ещё раз выполните команды `git diff` и `git diff --staged`. Поиграйте с изменениями и этими командами, чтобы чётко понять, что и когда они отображают.
+   ![Git_01](https://github.com/Qshar1408/devops-netology/blob/main/img/git_006.png)
+13. Теперь можно сделать коммит `git commit -m 'First commit'`.
+   ![Git_01](https://github.com/Qshar1408/devops-netology/blob/main/img/git_007.png)
+14. И ещё раз посмотреть выводы команд `git status`, `git diff` и `git diff --staged`.
+   ![Git_01](https://github.com/Qshar1408/devops-netology/blob/main/img/git_008.png)
 
 ### Создание файлов `.gitignore` и второго коммита
 
